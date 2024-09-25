@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using monosort.domain;
@@ -11,9 +12,11 @@ using monosort.domain;
 namespace monosort.domain.Migrations
 {
     [DbContext(typeof(MonosortDbContext))]
-    partial class MonosortDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240925193101_AddDataModels")]
+    partial class AddDataModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
