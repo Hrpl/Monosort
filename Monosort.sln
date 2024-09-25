@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monosort.infrastructure", "monosort.infrastructure\monosort.infrastructure.csproj", "{CBDBAA9A-0492-46CF-8813-38E8B65DBDE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monosort.api", "monosort.api\monosort.api.csproj", "{D1B3F715-0DA4-473E-B8B5-3B1891E14133}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monosort.domain", "monosort.domain\monosort.domain.csproj", "{A375FF79-CD2D-4537-B03A-68E6244C7809}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "monosort.application", "monosort.application\monosort.application.csproj", "{93A6CF40-9375-4A84-8154-AB90B64482F4}"
@@ -32,6 +30,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "monosort.frontend", "monoso
 		SlnRelativePath = "monosort.frontend\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monosort.api", "monosort.api\monosort.api.csproj", "{1850B850-C76D-4F20-A5E9-615439EF4369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,10 +42,6 @@ Global
 		{CBDBAA9A-0492-46CF-8813-38E8B65DBDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDBAA9A-0492-46CF-8813-38E8B65DBDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDBAA9A-0492-46CF-8813-38E8B65DBDE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1B3F715-0DA4-473E-B8B5-3B1891E14133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1B3F715-0DA4-473E-B8B5-3B1891E14133}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1B3F715-0DA4-473E-B8B5-3B1891E14133}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1B3F715-0DA4-473E-B8B5-3B1891E14133}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A375FF79-CD2D-4537-B03A-68E6244C7809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A375FF79-CD2D-4537-B03A-68E6244C7809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A375FF79-CD2D-4537-B03A-68E6244C7809}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,6 +54,10 @@ Global
 		{B4509FB3-91E1-4C27-8E7E-3DB8B8871B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4509FB3-91E1-4C27-8E7E-3DB8B8871B0B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4509FB3-91E1-4C27-8E7E-3DB8B8871B0B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1850B850-C76D-4F20-A5E9-615439EF4369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1850B850-C76D-4F20-A5E9-615439EF4369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1850B850-C76D-4F20-A5E9-615439EF4369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1850B850-C76D-4F20-A5E9-615439EF4369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
