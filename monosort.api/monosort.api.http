@@ -1,0 +1,6 @@
+@monosort.api_HostAddress = http://localhost:5237
+
+GET {{monosort.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
